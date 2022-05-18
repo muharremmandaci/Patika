@@ -1,0 +1,79 @@
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+    background-color: rgb(212, 9, 9);
+}
+
+.img {
+    float:left;
+}
+
+.name {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float:left;
+}
+
+.experience {
+    list-style-type: square;
+}
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skill-div {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1.5cm;
+}
+
+.contact-section h2{
+    margin-left: 1cm;
+}
+
+.contact-section p{
+    margin-left: 1cm;
+}
+
+.contact-section a{
+    margin-left: 1cm;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.html {width: 30%; background-color: #04AA6D;} /* Green */
+.cpp {width: 80%; background-color: #2196F3;} /* Blue */
+.rust {width: 40%; background-color: #f44336;} /* Red */
+.csharp {width: 60%; background-color: #808080;} /* Dark Grey */
