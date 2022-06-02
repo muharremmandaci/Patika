@@ -1,15 +1,6 @@
 .ftype{
     font-family:Arial,sans-serif;
 }
-.corner{
-    display: inline-block;
-    padding-left: 15px;
-    color: #000;
-    opacity: 0.75;
-    cursor: pointer;
-    text-decoration: none;
-    font-size:18px;
-}
 .gmail{
     text-decoration: none;
     color: #000;
