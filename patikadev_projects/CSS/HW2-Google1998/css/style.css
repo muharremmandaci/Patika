@@ -1,0 +1,54 @@
+.logo {
+    text-align: center;
+}
+
+.search-box {
+    width: 90%;
+    background-color: rgb(238,238,238);
+    text-align: center;
+    margin: auto;
+}
+
+.bottom-boxes{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.left-box {
+    width: 34.5%;
+    height: 75px;
+    background-color: rgb(126,229,218);
+    float: left;
+    text-align: center;
+    margin-right: 0.5%;
+    padding-top: 1%;
+}
+
+.middle-box {
+    font-size: 13px;
+    width: 24.5%;
+    height: 75px;
+    background-color: rgb(101,204,193);
+    float: left;
+    text-align: center;
+    margin-right: 0.5%;
+    padding-top: 1%;
+}
+
+.right-box {
+    font-size: 13px;
+    height: 75px;
+    width: 40%;
+    background-color: rgb(85,189,178);
+    float: left;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 13px;
+}
